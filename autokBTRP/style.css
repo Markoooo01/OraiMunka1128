@@ -1,0 +1,13 @@
+#fotartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'h h h'
+    'n n n'
+    ''
+    ''
+    ''
+    ''
+    'f f f';
+}
