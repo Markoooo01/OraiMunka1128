@@ -1,0 +1,36 @@
+#tartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'sz1 sz4 sz4'
+    'sz1 kep sz2'
+    'sz3 sz3 sz3';
+}
+
+#sz1{
+    grid-area: sz1;
+}
+#sz2{
+    grid-area: sz2;
+    text-align: right;
+}
+#sz3{
+    grid-area: sz3;
+}
+#sz4{
+    grid-area: sz4;
+    color: red;
+}
+#kep{
+    grid-area: kep;
+}
+
+#sz1, #sz3{
+    text-align: center;
+}
+
+#tartalom *{
+    border: 1px black solid;
+    padding: 5px 5px 0px 5px;
+}
